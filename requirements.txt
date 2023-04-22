@@ -1,0 +1,6 @@
+fastapi
+requests
+uvicorn
+requests_oauthlib
+pydantic
+pyhumps
