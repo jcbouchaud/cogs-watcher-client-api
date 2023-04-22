@@ -15,21 +15,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-# @app.post("/authenticate", response_model=AuthenticateResponse)
-# async def authenticate(auth_input: AuthenticateInput):
-#     access_token_url = 'https://api.discogs.com/oauth/access_token'
-#
-#     oauth = OAuth1Session(CONSUMER_KEY,
-#                           client_secret=CONSUMER_SECRET,
-#                           resource_owner_key=auth_input.resource_key,
-#                           resource_owner_secret=auth_input.resource_secret,
-#                           verifier=auth_input.verifier
-#                           )
-#     oauth_tokens = oauth.fetch_access_token(access_token_url)
-#     user_key = oauth_tokens.get('oauth_token')
-#     user_secret = oauth_tokens.get('oauth_token_secret')
-#
 #     user_oauth = OAuth1Session(CONSUMER_KEY,
 #                           client_secret=CONSUMER_SECRET,
 #                           resource_owner_key=user_key,

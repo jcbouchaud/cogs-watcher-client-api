@@ -4,3 +4,4 @@ uvicorn
 requests_oauthlib
 pydantic
 pyhumps
+python-dotenv
